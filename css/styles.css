@@ -1,0 +1,169 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+  font-size: 3rem;
+  line-height: 3.6rem;
+}
+h3{
+  font-size: 1.5rem;
+}
+
+p{
+  font-size: 1.5rem;
+  color: #8f8f8f;
+}
+
+.centrar{
+  margin-top: 10.0rem;
+  text-align: center;
+}
+
+.color{
+  color: white;
+}
+
+
+
+.color:hover{
+  color : #eeeeee;
+}
+.carro-por{
+  width: 60%;
+  transform: rotate(25deg);
+  margin-top: 60px;
+  margin-left: 60px;
+  position: absolute;
+  right: 26%;
+}
+
+
+.carousel-item{
+    padding: 3% 15%;
+}
+
+.container-fluid1{
+  padding: 3% 15% 7%;
+}
+
+.download-buttons{
+  margin : 5% 3% 5% 0;
+}
+
+.espacio-carta{
+  padding: 3% 2%;
+}
+
+.feat:hover{
+  color: #05dfd7;
+}
+
+.feat{
+  font-size: 600%;
+  color: #5fdde5;
+  margin-bottom: 30px;
+}
+
+.gris{
+    color: #8f8f8f;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.img-ft{
+  font-size: 200%;
+  margin : 2% 1% 2% 0;
+}
+
+.img-testimonio{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.logo{
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.logo:hover{
+  color : #eeeeee;
+}
+
+.navbar{
+  padding: 0  0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 15px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.press-img{
+    width: 15%;
+}
+
+.sobreponer{
+  padding: 3% 15%;
+  z-index: 10;
+  background-color: white;
+  position: relative;
+}
+
+.tamano{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.testimonio{
+  background-color: #5fdde5;
+  color: white;
+}
+
+.titulo{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+#cta{
+  text-align: center;
+  background-color: #5fdde5;
+  font-family: 'Montserrat', sans-serif;
+  color : white;
+  padding: 3% 15%;
+
+}
+
+#footer{
+  padding: 3% 15%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+#title{
+  background-color: #05dfd7;
+}
+
+#press{
+  text-align: center;
+  background-color: #5fdde5;
+  padding-bottom: 3%;
+}
+
+@media (max-width: 1050px){
+  .carro-por{
+    transform: rotate(0deg);
+    position: static;
+  }
+
+  #title{
+    text-align: center;
+  }
+}
